@@ -30,15 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63199F061D5FF25C007E8A0E /* CLGeocoder+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLGeocoder+AnyPromise.h"; path = "Sources/CLGeocoder+AnyPromise.h"; sourceTree = SOURCE_ROOT; };
-		63199F071D5FF25C007E8A0E /* CLGeocoder+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLGeocoder+AnyPromise.m"; path = "Sources/CLGeocoder+AnyPromise.m"; sourceTree = SOURCE_ROOT; };
-		63199F081D5FF25C007E8A0E /* CLGeocoder+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CLGeocoder+Promise.swift"; path = "Sources/CLGeocoder+Promise.swift"; sourceTree = SOURCE_ROOT; };
-		63199F091D5FF25C007E8A0E /* CLLocationManager+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLLocationManager+AnyPromise.h"; path = "Sources/CLLocationManager+AnyPromise.h"; sourceTree = SOURCE_ROOT; };
-		63199F0A1D5FF25C007E8A0E /* CLLocationManager+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLLocationManager+AnyPromise.m"; path = "Sources/CLLocationManager+AnyPromise.m"; sourceTree = SOURCE_ROOT; };
-		63199F0B1D5FF25C007E8A0E /* CLLocationManager+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CLLocationManager+Promise.swift"; path = "Sources/CLLocationManager+Promise.swift"; sourceTree = SOURCE_ROOT; };
+		63199F061D5FF25C007E8A0E /* CLGeocoder+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLGeocoder+AnyPromise.h"; path = "Sources/Objc/CLGeocoder+AnyPromise.h"; sourceTree = SOURCE_ROOT; };
+		63199F071D5FF25C007E8A0E /* CLGeocoder+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLGeocoder+AnyPromise.m"; path = "Sources/Objc/CLGeocoder+AnyPromise.m"; sourceTree = SOURCE_ROOT; };
+		63199F081D5FF25C007E8A0E /* CLGeocoder+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CLGeocoder+Promise.swift"; path = "Sources/Swift/CLGeocoder+Promise.swift"; sourceTree = SOURCE_ROOT; };
+		63199F091D5FF25C007E8A0E /* CLLocationManager+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLLocationManager+AnyPromise.h"; path = "Sources/Objc/CLLocationManager+AnyPromise.h"; sourceTree = SOURCE_ROOT; };
+		63199F0A1D5FF25C007E8A0E /* CLLocationManager+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLLocationManager+AnyPromise.m"; path = "Sources/Objc/CLLocationManager+AnyPromise.m"; sourceTree = SOURCE_ROOT; };
+		63199F0B1D5FF25C007E8A0E /* CLLocationManager+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CLLocationManager+Promise.swift"; path = "Sources/Swift/CLLocationManager+Promise.swift"; sourceTree = SOURCE_ROOT; };
 		63199F141D5FF7B9007E8A0E /* CLGeocoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CLGeocoderTests.swift; path = Tests/CLGeocoderTests.swift; sourceTree = SOURCE_ROOT; };
 		63199F151D5FF7B9007E8A0E /* CLLocationManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CLLocationManagerTests.swift; path = Tests/CLLocationManagerTests.swift; sourceTree = SOURCE_ROOT; };
-		6358AB791D5D4B6700B9B157 /* PMKCoreLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMKCoreLocation.h; path = Sources/PMKCoreLocation.h; sourceTree = SOURCE_ROOT; };
+		6358AB791D5D4B6700B9B157 /* PMKCoreLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMKCoreLocation.h; path = Sources/Objc/PMKCoreLocation.h; sourceTree = SOURCE_ROOT; };
 		63C700091D5C0253003BAE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C7FFA71D5BEE09003BAE60 /* PMKCoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMKCoreLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C7FFF21D5C020D003BAE60 /* PMKCLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMKCLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +65,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25F296502352DD1E00AB782A /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				6358AB791D5D4B6700B9B157 /* PMKCoreLocation.h */,
+				63199F061D5FF25C007E8A0E /* CLGeocoder+AnyPromise.h */,
+				63199F071D5FF25C007E8A0E /* CLGeocoder+AnyPromise.m */,
+				63199F091D5FF25C007E8A0E /* CLLocationManager+AnyPromise.h */,
+				63199F0A1D5FF25C007E8A0E /* CLLocationManager+AnyPromise.m */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		25F296512352DD6400AB782A /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				63199F081D5FF25C007E8A0E /* CLGeocoder+Promise.swift */,
+				63199F0B1D5FF25C007E8A0E /* CLLocationManager+Promise.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		63C7FF9D1D5BEE09003BAE60 = {
 			isa = PBXGroup;
 			children = (
@@ -89,13 +110,8 @@
 		63C7FFA91D5BEE09003BAE60 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6358AB791D5D4B6700B9B157 /* PMKCoreLocation.h */,
-				63199F061D5FF25C007E8A0E /* CLGeocoder+AnyPromise.h */,
-				63199F071D5FF25C007E8A0E /* CLGeocoder+AnyPromise.m */,
-				63199F081D5FF25C007E8A0E /* CLGeocoder+Promise.swift */,
-				63199F091D5FF25C007E8A0E /* CLLocationManager+AnyPromise.h */,
-				63199F0A1D5FF25C007E8A0E /* CLLocationManager+AnyPromise.m */,
-				63199F0B1D5FF25C007E8A0E /* CLLocationManager+Promise.swift */,
+				25F296502352DD1E00AB782A /* Objc */,
+				25F296512352DD6400AB782A /* Swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
